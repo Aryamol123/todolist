@@ -87,3 +87,32 @@ body {
   transform: rotateX(60deg) translateY(-10px);
   transition: 0.4s;
 }
+
+
+@media screen and (max-width:768px){
+  .kitchen-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .kitchen-header input {
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    width: 200px;
+  }
+  .kitchen-header button {
+    font-size: 14px;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.3s;
+  }
+  .kitchen-items-list li {
+    font-size: 14px;
+  }
+
+}
