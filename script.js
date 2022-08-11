@@ -111,4 +111,4 @@ if(event.target.classList[1] === 'fa-edit'){
 
 }
 
-getLocalStorage();
+// getLocalStorage();
